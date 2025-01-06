@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="header-logo">
+        <img src="images/Meubel House_Logos-05.png" alt="Marmeto Logo" class="logo">
+        <span>Marmeto</span>
+    </div>
+    <nav class="header-nav">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="header-btns">
+        <button><img src="images/nav1.png" alt="Search" width="20px" height="18px"></button>
+        <button><img src="images/nav2.png" alt="Wish" width="20px" height="18px"></button>
+        <button><img src="images/nav3.png" alt="Cart" width="20px" height="18px"></button>
+    </div>
+</header>
+
+
+    <section class="hero">
+        <img src="images/Meubel House_Logos-05.png" alt="">
+        <h1>Cart</h1>
+        <p>Home > Cart</p>
+    </section>
+
+    <section class="cart">
+        <div class="cart-items" >
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody class="cart-items">
+                    <!-- Cart Items will be dynamically rendered here -->
+                </tbody>
+            </table>
+        </div>
+
+        <aside class="cart-totals">
+            <h2>Cart Totals</h2>
+            <div class="totals">
+                <p>Subtotal: <span id="subtotal">₹250000.00</span></p>
+                <p>Total: <span id="total">₹250000.00</span></p>
+            </div>
+            <button id="checkout">Check Out</button>
+        </aside>
+    </section>
+
+<footer class="footer">
+    <div class="footer-icons">
+        <div class="footer-icon">
+            <img src="images/trophy 1.png" alt="" width="60px" height="60px">
+            <div>
+                <strong>High Quality</strong>
+                <p>Crafted from top materials</p>
+            </div>
+        </div>
+        <div class="footer-icon">
+            <img src="images/guarantee.png" alt="">
+            <div>
+                <strong>Warranty Protection</strong>
+                <p>Over 2 years</p>
+            </div>
+        </div>
+        <div class="footer-icon">
+            <img src="images/Vector.png" alt="">
+            <div>
+                <strong>Free Shipping</strong>
+                <p>Order over $150</p>
+            </div>
+        </div>
+        <div class="footer-icon">
+            <img src="images/Vector (1).png" alt="">
+            <div>
+                <strong>24 / 7 Support</strong>
+                <p>Dedicated support</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
