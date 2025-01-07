@@ -200,15 +200,4 @@ document.addEventListener("DOMContentLoaded", function () {
       nav.classList.remove("active");
     }
   });
-
-  // Checkout button functionality
-//   const checkoutButton = document.getElementById("checkout");
-//   if (checkoutButton) {
-//     checkoutButton.addEventListener("click", function () {
-//       alert("Thank you for your order! Your items will be processed shortly.");
-//       console.log("Checkout clicked");
-//     });
-//   } else {
-//     console.error("Checkout button not found.");
-//   }
 });
